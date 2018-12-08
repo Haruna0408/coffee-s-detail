@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+
+	color: #595757;
+}
+
+
+
+#page{
+  margin-top: 30px;
+
+
+}
+#pankuzu {
+	width: 980px;
+	margin-left: 20px;
+	padding-left: 10px;
+	margin-top: 30px;
+	background:rgba(255,255,255,0.5);
+}
+
+.breadcrumb {
+  padding-left:0;
+  margin-left:0;
+}
+
+.breadcrumb li{
+  display:inline;/*横に並ぶように*/
+  list-style: none;
+}
+
+.breadcrumb li:after{/* >を表示*/
+  content: '>';
+  padding: 0 3px;
+  color: #000;
+}
+
+.breadcrumb li:last-child:after{
+  content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: ＃000;/*色*/
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+
+#kodawari_l-header {
+    position: relative;
+}
+
+.d-p-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size: 45px;
+  letter-spacing: 0.3em;
+  }
+
+  .d-p-2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin-top:10px;
+  padding-top:10px;
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  border-top: solid 2px #fff;
+
+  }
+
+
+#kodawari-cmnt p {
+    letter-spacing: 0.2em;
+}
+
+
+#kodawari-cmnt {
+    width: 980px;
+    height: 300px;
+    margin-top: 0px;
+    padding:50px 0px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#kodawari-cmnt p{
+    padding-bottom: 10px;
+}
+
+
+
+.box {
+    background-color: #fff;
+    width: 287px;
+    height: 430px;
+}
+
+#contents {
+    width: 980px;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+#kodawari-1 {
+  position:relative;
+  width: 262px;
+  float: left;
+  margin-right:40px;
+  margin-left:20px;
+  letter-spacing: 0.2em;
+
+}
+
+.c-p-1 {
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  color: #fff;
+  border-bottom: solid 1px #fff;
+ z-index: 1;
+}
+
+.c-p-2 {
+  position: absolute;
+  top: 27%;
+  left: 17%;
+  color: #fff;
+ z-index: 1;
+}
+
+
+
+#kodawari-2 {
+   position: relative;
+     width: 262px;
+     float: left;
+     margin-right: 40px;
+     letter-spacing: 0.2em;
+
+}
+
+.t-p-1 {
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  color: #fff;
+  border-bottom: solid 1px #fff;
+  z-index:2;
+}
+
+.t-p-2 {
+  position: absolute;
+  top: 27%;
+  left: 17%;
+  color: #fff;
+  z-index:2;
+}
+
+#kodawari-3 {
+     width: 262px;
+     float: left;
+     margin-right:19px;
+     letter-spacing: 0.2em;
+     position:relative;
+
+}
+
+.s-p-1 {
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  color: #fff;
+  border-bottom: solid 1px #fff;
+       z-index:3;
+}
+
+.s-p-2 {
+  position: absolute;
+  top: 27%;
+  left: 17%;
+  color: #fff;
+       z-index:3;
+}
+
+
+.kodawari-p {
+     padding-top: 25px;
+     padding-left: 25px;
+     padding-bottom: 25px;
+}
+
+.white {
+    color: #fff;
+}
+
+.coffee-p-1{
+position: absolute;
+  top: 150%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size: 22px;
+  letter-spacing: 0.2em;
+  }
+
+
+
+.button {
+  position: relative;
+  background-color: #613a43;
+  border-radius: 4px;
+  color: #fff;
+  line-height: 52px;
+  -webkit-transition: none;
+  transition: none;
+  box-shadow: 0 3px 0 #473636;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  font-size: 16px;
+  margin-left: 30px;
+  margin-top:  30px;
+  padding: 15px 30px;
+}
+.button:hover {
+  background-color: #e5dace;
+  box-shadow: 0 3px 0 #5e5c5c;
+}
+.button:active {
+  top: 3px;
+  box-shadow: none;
+}
+
+header {
+    width: 980px;
+	padding: 20px 0px;
+}
+
+
+
+
+.calm_cafe {
+  font-size: 40px;
+  font-family: "Segoe Script";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+}
+
+
+#gnav {
+    width : 700px;
+    height: 50px;
+    float : left;
+	padding: 5px 0px;
+	font-size: 13px;
+	text-align: right;
+}
+
+#gnav li {
+	display: inline-block;
+	width: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style-type: none;
+}
+
+#gnav a {
+	height: 30px;
+}
+
+#gnav span {
+	font-size: 11px;
+	text-align: center;
+}
+
+#page {
+	clear : both;
+	overflow: hidden;
+	width: 980px;
+	color: #595757;
+
+}
+
+
