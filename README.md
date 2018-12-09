@@ -1,2 +1,2 @@
 # coffee-s-detail
-calm cafeのこだわりのコーヒーページ
+calm cafeのこだわりのコーヒーページ Webpage
