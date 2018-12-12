@@ -1,0 +1,168 @@
+@charset "utf-8";
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+
+	color: #595757;
+}
+
+#pankuzu {
+	width: 980px;
+	margin-left: 20px;
+	padding-left: 10px;
+	margin-top: 30px;
+	background:rgba(255,255,255,0.5);
+}
+
+.breadcrumb {
+  padding-left:0;
+  margin-left:0;
+}
+
+.breadcrumb li{
+  display:inline;/*横に並ぶように*/
+  list-style: none;
+}
+
+.breadcrumb li:after{/* >を表示*/
+  content: '>';
+  padding: 0 3px;
+  color: #000;
+}
+
+.breadcrumb li:last-child:after{
+  content: '';
+}
+
+.breadcrumb li a {
+    text-decoration: none;
+    color: ＃000;/*色*/
+}
+
+.breadcrumb li a:hover {
+    text-decoration: underline;
+}
+.bold {
+	font-weight: bold;
+}
+
+
+
+#header_kodawari {
+	width: 1280px;
+	height: 330px;
+	background-color: #613a43;
+	background-image: url(../images/kodawari_coffee.jpg);
+	background-repeat: no-repeat;
+	background-position: right 30px;
+	padding: 20px;
+	margin: 0 0 60px 20px;
+
+}
+
+#coffee_kodawari_text {
+	padding-top: 10px;
+}
+
+ h1 {
+	font-size: 30px;
+	font-family: "Noto Serif CJK JP Medium","游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+ }
+
+
+h2 {
+	font-size: 24px;
+	border-left: solid 2px #595757;
+	padding-left: 10px;
+	font-weight: bold;
+	font-family: "Noto Serif CJK JP Medium","游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+
+
+#contents {
+	clear: both;
+	width: 980px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+
+#beans {
+	clear: both;
+	width: 930px;
+	height: 295px;
+	overflow: hidden;
+	background-image: url(../images/kodawari_beans.jpg);
+	background-repeat: no-repeat;
+	background-position: left 20px;
+	padding: 20px 20px 20px 470px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	font-family: "segoe UI", 'Noto Sans JP', "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Verdana", "メイリオ", "Meiryo", sans-serif;
+	font-size:14px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	
+}
+
+
+
+
+#machine {
+	clear: both;
+	width: 930px;
+	height: 295px;
+	overflow: hidden;
+	background-image: url(../images/kodawari_machine.jpg);
+	background-repeat: no-repeat;
+	background-position: right 20px;
+	padding: 20px 470px 20px 20px;
+	margin-bottom: 60px;
+	font-family: "segoe UI", 'Noto Sans JP', "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Verdana", "メイリオ", "Meiryo", sans-serif;
+	font-size:0.875em;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+}
+
+
+#roasted {
+	clear: both;
+	width: 930px;
+	height: 295px;
+	overflow: hidden;
+	background-image: url(../images/kodawari_roasted.jpg);
+	background-repeat: no-repeat;
+	background-position: left 20px;
+	padding: 20px 20px 20px 470px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+	font-family: "Noto Sans JP","segoe UI", "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", "Meiryo", sans-serif;
+	font-size:0.875em;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+}
+
+.h1_under {
+	font-size: 20px;
+	text-indent: 0.5em;
+	padding-bottom: 20px;
+	font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.h2_under {
+	font-size: 16px;
+	text-indent: 0.7em;
+	padding: 0 20px 5px 0;
+	font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+
+
+.kodawari_p {
+	font-size: 14px;
+	width: 430px;
+	font-weight: bolder;
+	font-family: "Noto Sans CJK JP ライト","segoe UI", 'Noto Sans JP', "游ゴシック", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, "メイリオ", "Meiryo", sans-serif;	
+}
+
+

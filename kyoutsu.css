@@ -1,0 +1,142 @@
+@charset "utf-8";
+body {
+	background-color: #e9dccd;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	background-size: cover;
+	font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+
+	color: #595757;
+}
+
+header {
+    width: 1280px;
+	padding: 20px 0px;
+}
+
+
+
+
+.calm_cafe {
+  font-size: 40px;
+  font-family: "Segoe Script";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+}
+
+
+#gnav {
+    width : 700px;
+    float : left;
+	padding: 5px 0px;
+	font-size: 13px;
+	text-align: right;
+}
+
+#gnav li {
+	display: inline-block;
+	width: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	list-style-type: none;
+}
+
+
+#gnav span {
+	font-size: 11px;
+	text-align: center;
+}
+
+#page {
+	clear : both;
+	overflow: hidden;
+	width: 980px;
+	color: #595757;
+
+}
+
+
+footer {
+	width: 1280px;
+	background-color: #613a43;
+	background-size:cover;
+	overflow: hidden;
+	clear: both;
+	padding-top: 20px;
+	font-size: 16px;
+}
+
+
+#footer_logo {
+	width: 230px;
+	padding-left: 20px;
+	float: left;
+
+}
+
+
+#footer_nav {
+	width: 620px;
+	float: right;
+	margin-left: 40px;
+}
+
+#footer_nav a {
+	color: #fff;
+}
+
+
+#fnav_up {
+	float: left;
+	width: 310px;
+	text-align: center;
+}
+#fnav_un {
+	float: left;
+	width: 310px;
+	text-align: center;
+}
+
+#copyright {
+	clear: both;
+	overflow: hidden;
+	width: 980px;
+	padding-top: 30px;
+}
+
+#copyright p {
+		text-align: center;
+		font-size: 16px;
+		
+}
+
+
+
+
+.none {
+	display: none;
+}
+
+.white {
+	color: #fff;
+}
+
+li {
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+a {
+	 text-decoration: none;
+	 color: #000;
+	 font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+.nav {
+	width:120px;
+	text-align: center;
+}

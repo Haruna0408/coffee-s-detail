@@ -1,0 +1,505 @@
+
+      html{
+      box-sizing:border-box;
+    }
+    *,*::before,*::after{
+      box-sizing: inherit;
+    }
+    
+    img {
+      max-width: 100%;
+      width: 100%;
+      height: auto;
+    }
+        
+        /*PC用*/
+        @media screen and (min-width:801px){
+            header{
+            /*幅980pxを%で設定*/
+           width: 100%;
+           margin: auto;
+           padding: 1%;
+            }
+
+            #header_logo {
+              width: 24%;
+              margin: 0 auto;
+              padding-bottom: 1%;
+            }
+
+            nav {
+              width: 76%;
+              margin: 0 auto;
+              padding: 1.4% 0%;
+            }
+
+            #gnav {
+              width: 71%;
+            }
+
+            #contents {
+              width:100%;
+            }
+
+            #header_kodawari {
+              width: 98%;
+              background-color: #613a43;
+              padding: 2% 48% 2% 2%;
+              margin: 0 0 6% 2%;
+            }
+
+            h1 {
+              font-size: 2em;
+            }
+            
+            .h1_under {
+              padding-top: 0.5%;
+            }
+
+            h2 {
+              padding: 2% 0 2% 1%;
+               font-size: 1.5em;
+            }
+
+            .h2_under{
+              padding: 0.5% 0 2% 0;
+            }
+
+
+         
+
+            #beans {
+               width: 100%;
+               padding: 2% 2% 2% 48%;
+               margin: 0 0 6% 2%;
+            }
+
+          
+          .h2_under {
+              font-size: 1.2em;
+          }
+
+            #machine {
+               width: 100%;
+               padding: 2% 45% 2% 2%;
+               margin: 0 0 6% 2%;
+            }
+          
+            #roaste {
+               width: 100%;
+               padding: 2% 2% 2% 48%;
+               margin: 0 0 6% 2%;
+            }
+
+            .kodawari_p  {
+             width: 80%;
+             margin-top: 2%;
+           }
+
+            footer {
+              width: 100%;
+              height: 100%;
+              margin: 0 auto;
+              padding-top: 6%;
+            }
+            
+       
+            #footer_logo {
+	width: 23%;
+	padding-left: 2%;
+    margin-right: 10%;
+	float: left;
+
+}
+
+
+#footer_nav {
+	width: 60%;
+	float: right;
+}
+
+
+
+#fnav_up {
+	width: 30%;
+    float: left;
+    margin-left: 15%;
+	text-align: center;
+}
+#fnav_un {
+   
+	width: 30%;
+    float:right;
+    margin-right: 18%;
+	text-align: center;
+}
+
+            .top_button {
+              display: none;
+            }
+
+        }
+
+
+
+        /*タブレット用*/
+ @media screen and (min-width:481px) and (max-width:800px) {
+
+          body {
+            width:100%;
+            margin:0;
+          }
+
+          header{
+            /*幅480pxをauto設定*/
+           width: 100%;
+           margin: auto;
+           padding: 0.5%;
+           overflow: hidden;
+           }
+
+            .calm_cafe {
+              width: 100%;
+              margin: auto;
+              text-align: left;
+              padding-bottom: 1%;
+            }
+
+
+
+            #gnav {
+                display:none;
+
+            }
+
+        
+            #page{
+               width:100%;
+               margin: 0;
+            }
+
+            #header_kodawari {
+              width: 100%;
+              height: 60%;
+              overflow: hidden;
+              background: url(../images/kodawari_coffee.jpg) no-repeat right top;
+              background-color: #613a43;
+              background-size: 50% auto;
+              padding: 3% 55% 3% 3%; 
+              text-align:center;
+            }
+
+              
+
+
+                        
+            .h1_under {
+              padding-top: 1%;
+              text-align: center;
+            }
+
+            h2 {
+              padding: 3% 0 3% 0%;
+              font-size: 1.5em;
+            }
+
+            .h2_under{
+              padding: 0.5% 0 4% 0;
+            }
+            
+               #contents {
+              width: 100%;
+              margin: auto;
+              overflow:hidden;
+            }
+
+
+            article {
+              width: 100%;
+              margin: auto;
+              overflow: hidden;
+            }
+
+            #beans {
+               width: 100%;
+               height: 60%;
+               background: url(../images/kodawari_beans.jpg) no-repeat left top;
+               overflow:hidden;
+               background-size: 50% auto;
+               padding: 3% 3% 3% 55%;
+               margin-bottom: 7%;
+               text-align:center;
+            }
+
+
+            #machine {
+               width: 100%;
+               height: 60%;
+               background: url(../images/kodawari_machine.jpg) no-repeat right top;
+               background-size: 50% auto;
+               overflow:hidden;
+               padding: 3% 55% 3% 3%;
+               margin-bottom: 7%;
+               text-align: center;
+            }
+          
+            #roasted {
+               width: 100%;
+               height: 60%;
+               background: url(../images/kodawari_roasted.jpg) no-repeat left top;
+               background-size: 50% auto;
+               overflow: hidden;
+               padding: 3% 3% 3% 55%;
+               margin-bottom: 7%;
+               text-align: center;
+            }
+
+
+            .kodawari_p   {
+             width: 100%;
+             margin:auto;
+            }
+
+            footer {
+              width: 100%;
+              margin: auto;
+              padding-top: 6%;
+              overflow: hidden;
+            }
+
+
+            #footer_logo p.calm_cafe {
+              display: none;
+            }
+
+
+            #footer_nav{
+              width: 70%;
+            } 
+
+            #fnav_up {
+              width:39%;
+              float: left;
+            }
+	                     
+            #fnav_un {
+            width: 39%;
+            float:left;
+            padding-left: 4%;
+            }
+    
+           #copyright {
+             width: 100%;
+           }
+
+            #copyright p {
+            text-align: center;
+            margin: auto;
+		        font-size: 0.6em; 		
+            }
+
+            .top_button {
+              position: fixed;
+              bottom: 16px;
+              right: 16px;
+            }
+
+            .top_button img{
+              width: 40px;
+              height: 40px;
+            }
+
+            .top_button a {
+              display: block;
+              text-decoration: none;
+              }
+          
+            .top_button:hover {
+                opacity: 0.85;
+               }
+
+      }
+    
+            
+
+
+        /*スマホ用*/
+@media screen and (max-width:480px) {
+
+
+          body {
+            width:100%;
+            margin:0;
+          }
+
+          header{
+            /*幅480pxをauto設定*/
+           width: 100%;
+           margin: auto;
+           padding: 0.5%;
+           overflow: hidden;
+           }
+
+            .calm_cafe {
+              width: 100%;
+              margin: auto;
+              text-align: left;
+              padding-bottom: 1%;
+            }
+
+
+
+            #gnav {
+                display:none;
+
+            }
+
+            #pankuzu{
+              display:none;
+            }
+        
+            #page{
+               width:100%;
+               margin: auto;
+            }
+
+            #header_kodawari {
+              width: 100%;
+              height: 51%;
+              overflow: hidden;
+              background: url(../images/kodawari_coffee.jpg) no-repeat left top;
+              background-color: #613a43;
+              background-size: 100% auto;
+              padding: 70% 0 0 2%;
+              text-align:center;
+
+            }
+
+                      
+
+                        
+            .h1_under {
+              padding-top: 0.5%;
+              text-align: center;
+            }
+
+            h2 {
+              padding: 2% 0 2% 1%;
+              font-size: 1.5em;
+              border: none;
+            }
+
+            .h2_under{
+              padding: 0.5% 0 4% 0;
+            }
+            
+
+            #contents {
+              width: 100%;
+              margin: auto;
+              overflow:hidden;
+            }
+
+
+            article {
+              width: 100%;
+              margin: auto;
+              overflow: hidden;
+            }
+
+            #beans {
+               width: 100%;
+               height: 51%;
+               background: url(../images/kodawari_beans.jpg) no-repeat center top;
+               overflow:hidden;
+               background-size: 100% auto;
+               padding: 70% 2% 1% 2%;
+               margin: 0 auto 7%;
+               text-align:center;
+            }
+
+
+            #machine {
+               width: 100%;
+               height: 51%;
+               background: url(../images/kodawari_machine.jpg) no-repeat  top;
+               background-size: 100% auto;
+               overflow:hidden;
+               padding: 70% 2% 1% 2%;
+               margin-bottom: 14%;
+               text-align: center;
+            }
+          
+            #roasted {
+               width: 100%;
+               height: 51%;
+               background: url(../images/kodawari_roasted.jpg) no-repeat center top;
+               background-size: 100% auto;
+               overflow: hidden;
+               padding: 70% 2% 1% 2%;
+               margin-bottom: 14%;
+               text-align: center;
+            }
+
+
+            .kodawari_p   {
+             width: 100%;
+            }
+
+            footer {
+              width: 100%;
+              margin: auto;
+              padding-top: 6%;
+              overflow: hidden;
+            }
+
+            #footer_logo p.calm_cafe {
+              display: none;
+            }
+
+
+            #footer_nav{
+              width: 98%;
+            } 
+
+            #fnav_up {
+              display: none;
+            }
+	                     
+            #fnav_un {
+            width: 100%;
+            float:none;
+            padding-left: 4%;
+            }
+    
+           #copyright {
+             width: 100%;
+           }
+
+            #copyright p {
+            text-align: center;
+            margin: auto;
+		        font-size: 0.8em; 		
+            }
+
+            .top_button {
+              position: fixed;
+              bottom: 16px;
+              right: 16px;
+            }
+
+            .top_button img{
+              width: 40px;
+              height: 40px;
+            }
+
+            .top_button a {
+              display: block;
+              text-decoration: none;
+              }
+          
+            .top_button:hover {
+                opacity: 0.85;
+               }
+
+      }

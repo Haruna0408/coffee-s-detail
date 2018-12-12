@@ -1,0 +1,47 @@
+@charset "utf-8";
+body {
+	width: 980px;
+	background-color: #e9dccd;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100%;
+	background-size: cover;
+	font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.drawer--right .drawer-hamburger, .drawer--right.drawer-open .drawer-nav, .drawer--right.drawer-open .drawer-navbar .drawer-hamburger{
+	color: #595757;
+}
+
+.drawer-container {
+	width: 980px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.drawer-navbar .drawer-navbar-header {
+	background-color: #e9dccd;
+}
+
+
+.drawer-navbar  {
+	background-color: #e9dccd;
+
+}
+
+
+.drawer-nav{
+	color: #000;
+	background-color:  #e9dccd;
+}
+
+.drawer-navbar .drawer-menu-item {
+	line-height: 200%;
+}
+
+
+.drawer-menu a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
