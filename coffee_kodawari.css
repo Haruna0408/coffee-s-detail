@@ -51,7 +51,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
 	width: 1280px;
 	height: 330px;
 	background-color: #613a43;
-	background-image: url(../images/kodawari_coffee.jpg);
+	background-image: url(kodawari_coffee.jpg);
 	background-repeat: no-repeat;
 	background-position: right 30px;
 	padding: 20px;
@@ -92,7 +92,7 @@ h2 {
 	width: 930px;
 	height: 295px;
 	overflow: hidden;
-	background-image: url(../images/kodawari_beans.jpg);
+	background-image: url(kodawari_beans.jpg);
 	background-repeat: no-repeat;
 	background-position: left 20px;
 	padding: 20px 20px 20px 470px;
@@ -113,7 +113,7 @@ h2 {
 	width: 930px;
 	height: 295px;
 	overflow: hidden;
-	background-image: url(../images/kodawari_machine.jpg);
+	background-image: url(kodawari_machine.jpg);
 	background-repeat: no-repeat;
 	background-position: right 20px;
 	padding: 20px 470px 20px 20px;
@@ -130,7 +130,7 @@ h2 {
 	width: 930px;
 	height: 295px;
 	overflow: hidden;
-	background-image: url(../images/kodawari_roasted.jpg);
+	background-image: url(images/kodawari_roasted.jpg);
 	background-repeat: no-repeat;
 	background-position: left 20px;
 	padding: 20px 20px 20px 470px;
