@@ -42,7 +42,7 @@
             }
 
             #header_kodawari {
-              width: 98%;
+              width: １００%;
               background-color: #613a43;
               padding: 2% 48% 2% 2%;
               margin: 0 0 6% 2%;
@@ -97,7 +97,6 @@
            }
 
             footer {
-              width: 100%;
               height: 100%;
               margin: 0 auto;
               padding-top: 6%;
@@ -182,7 +181,7 @@
               width: 100%;
               height: 60%;
               overflow: hidden;
-              background: url(../images/kodawari_coffee.jpg) no-repeat right top;
+              background: url(kodawari_coffee.jpg) no-repeat right top;
               background-color: #613a43;
               background-size: 50% auto;
               padding: 3% 55% 3% 3%; 
@@ -246,7 +245,7 @@
             #roasted {
                width: 100%;
                height: 60%;
-               background: url(../images/kodawari_roasted.jpg) no-repeat left top;
+               background: url(kodawari_roasted.jpg) no-repeat left top;
                background-size: 50% auto;
                overflow: hidden;
                padding: 3% 3% 3% 55%;
@@ -367,7 +366,7 @@
               width: 100%;
               height: 51%;
               overflow: hidden;
-              background: url(../images/kodawari_coffee.jpg) no-repeat left top;
+              background: url(kodawari_coffee.jpg) no-repeat left top;
               background-color: #613a43;
               background-size: 100% auto;
               padding: 70% 0 0 2%;
@@ -410,7 +409,7 @@
             #beans {
                width: 100%;
                height: 51%;
-               background: url(../images/kodawari_beans.jpg) no-repeat center top;
+               background: url(kodawari_beans.jpg) no-repeat center top;
                overflow:hidden;
                background-size: 100% auto;
                padding: 70% 2% 1% 2%;
@@ -422,7 +421,7 @@
             #machine {
                width: 100%;
                height: 51%;
-               background: url(../images/kodawari_machine.jpg) no-repeat  top;
+               background: url(kodawari_machine.jpg) no-repeat  top;
                background-size: 100% auto;
                overflow:hidden;
                padding: 70% 2% 1% 2%;
@@ -433,7 +432,7 @@
             #roasted {
                width: 100%;
                height: 51%;
-               background: url(../images/kodawari_roasted.jpg) no-repeat center top;
+               background: url(odawari_roasted.jpg) no-repeat center top;
                background-size: 100% auto;
                overflow: hidden;
                padding: 70% 2% 1% 2%;
