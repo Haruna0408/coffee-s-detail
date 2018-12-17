@@ -369,7 +369,8 @@
               background: url(kodawari_coffee.jpg) no-repeat left top;
               background-color: #613a43;
               background-size: 100% auto;
-              padding: 70% 0 0 2%;
+	      margin-bottom: 14%;
+	      padding: 70% 2% 1% 2%;
               text-align:center;
 
             }
@@ -436,7 +437,7 @@
                background-size: 100% auto;
                overflow: hidden;
                padding: 70% 2% 1% 2%;
-               margin-bottom: 14%;
+               margin: 0 auto 7%;
                text-align: center;
             }
 
